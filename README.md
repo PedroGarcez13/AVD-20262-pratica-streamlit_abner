@@ -1,11 +1,23 @@
-# AVD-20262-pratica-streamlit
+# Spotify Songs: o que faz uma música popular?
 
-Repositório utilizado para aula prática relacionada a Streamlit na disciplina Análise e Visualização de Dados da Cesar School no período de 2026.2.
+Prática de Streamlit da disciplina **Análise e Visualização de Dados** (Cesar School, 2026.2), feita a partir do repositório-modelo [mfal-school/AVD-20262-pratica-streamlit](https://github.com/mfal-school/AVD-20262-pratica-streamlit).
 
-Repositório-modelo das Aulas 21, 22 e 23: construção de dois dashboards em Streamlit a partir da EDA desenvolvida em sala. O deploy dos dashboards ocorrerá via Streamlit Community Cloud e serão os seguintes:
+**Aluno:** Pedro Abner Saboya Tavares di Cavalcanti Garcez
 
-- Dashboard 1 = correlação + distribuição das variáveis quantitativas
-- Dashboard 2 = KPIs
+**Link do app:** _(preencher após o deploy)_
+
+## Sobre o projeto
+
+O app tem dois dashboards, em abas, construídos a partir da EDA do dataset **Spotify Songs** ([TidyTuesday 2020-01-21](https://github.com/rfordatascience/tidytuesday/tree/master/data/2020/2020-01-21)): ~28 mil músicas de playlists do Spotify em seis gêneros, com as características de áudio da API do Spotify.
+
+- **Dashboard 1: Laboratório de distribuição e correlação.** Seletor de variáveis quantitativas e sliders de intervalo na barra lateral; mapa de calor da correlação de Spearman e um histograma por variável, com opção de colorir por classe (Popular x Não popular).
+- **Dashboard 2: Painel do artista independente.** Para quem vai lançar a próxima faixa: taxa de hits, duração, dançabilidade e energia típicas de um hit, taxa de hits por gênero (clicável, filtra o resto do painel), taxa de hits por duração e perfil sonoro de hits x não hits. As métricas estão justificadas em [entregas/justificativa-metricas.md](entregas/justificativa-metricas.md).
+
+"Hit" = música no quartil superior de popularidade (`track_popularity` ≥ 58).
+
+> **Troca de dataset:** a EDA original da Aula 11 estava planejada com o dataset One Piece (Kaggle), majoritariamente textual. Ela foi refeita com o Spotify Songs, que tem variáveis quantitativas suficientes para os dashboards.
+
+**Stack:** Python, pandas, Streamlit, Altair (gráficos do app), seaborn/matplotlib/scipy (notebooks da EDA).
 
 ## Setup
 
@@ -73,8 +85,6 @@ streamlit run app.py
 ## Passo a passo
 
 O passo a passo detalhado de cada aula (Aulas 21, 22 e 23), com pré-requisitos e objetivos, está em [ROTEIRO.md](ROTEIRO.md). Comece por ele depois do Setup.
-
-**Link do app (Aula 23):** _(preencher após o deploy)_
 
 ## IA neste projeto
 
