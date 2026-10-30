@@ -1,20 +1,21 @@
-# Configuração do Streamlit. Descomente e ajuste conforme o projeto avançar.
-# O tema pode ser trocado pelo menu ⋮ → Settings → Choose app theme.
+# Configuração do Streamlit.
+# Identidade visual: a mesma paleta da EDA (roxo escuro = Popular, rosa claro = Não popular),
+# com um roxo médio como cor de destaque dos widgets.
 
 [theme]
 paddingTop = "0.0rem"     # espaço abaixo da barra do topo (valor entre aspas)
-# font = "sans serif"     # "sans serif", "serif" ou "monospace"
+font = "sans serif"       # "sans serif", "serif" ou "monospace"
 
 [theme.light]
-primaryColor = "#c1121f"            # cor de destaque (widgets, links): mesmo vermelho dos histogramas
-backgroundColor = "#ffffff"         # fundo da página
-secondaryBackgroundColor = "#f0f2f6"  # fundo da sidebar e de widgets
-textColor = "#31333f"               # cor do texto
-borderColor = "#d5dae5"
+primaryColor = "#7b4fa8"              # cor de destaque (widgets, links)
+backgroundColor = "#ffffff"           # fundo da página
+secondaryBackgroundColor = "#f6f0f4"  # fundo da sidebar e de widgets (rosa bem claro)
+textColor = "#2d223a"                 # texto no mesmo roxo escuro da classe Popular
+borderColor = "#e3d6df"
 
 [theme.dark]
-primaryColor = "#c1121f"
-backgroundColor = "#0e1117"
-secondaryBackgroundColor = "#262730"
-textColor = "#fafafa"
-borderColor = "#41444e"
+primaryColor = "#b08ad6"
+backgroundColor = "#16121c"
+secondaryBackgroundColor = "#2a2233"
+textColor = "#f3edf5"
+borderColor = "#43384f"
