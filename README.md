@@ -4,7 +4,7 @@ Prática de Streamlit da disciplina **Análise e Visualização de Dados** (Cesa
 
 **Aluno:** Pedro Abner Saboya Tavares di Cavalcanti Garcez
 
-**Link do app:** 
+**Link do app:** https://avd-spotify-abner.streamlit.app/
 
 ## Sobre o projeto
 
