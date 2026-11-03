@@ -14,7 +14,7 @@ Pedi ajuda para adaptar o modelo da aula ao meu dataset e montar os dois dashboa
 ## O que a IA fez
 
 - Adaptou o `app.py` do modelo da aula para o Spotify Songs (Dashboard 1) e escreveu o Dashboard 2.
-- Gerou o dataset tratado, a identidade visual, os rascunhos (wireframes digitais) e a justificativa das métricas.
+- Gerou o dataset tratado, a identidade visual, os rascunhos (wireframes digitais) e conferiu as justificativas das métricas.
 - Testou o app e ajudou nos commits e no deploy.
 
 ## O que foi aceito, modificado ou rejeitado e por quê
